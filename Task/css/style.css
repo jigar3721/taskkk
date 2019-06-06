@@ -1,0 +1,131 @@
+.user{
+   border-radius: 20px;
+   padding: 8px;
+   border: 1px solid #bbb;
+}
+label{
+   text-align: center;
+}
+
+.flex-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 0px;
+ }
+.colored-text{
+   display: inline;
+   color:#01b5f2;
+}
+.footer{
+   display: inline;
+   margin-bottom: 20px;
+   padding: 10px;
+}
+
+
+section.left{
+ width: 50%;
+ display: inline-block;
+}
+section.right{
+ width: 50%;
+ display: inline-block;
+}
+.heading{
+ width: 100%;
+ margin: 40px 0;
+ text-align: center;
+}
+.heading h2{
+ letter-spacing: 8px;
+ display: inline-block;
+ vertical-align: super;
+}
+.heading h2.left{}
+.heading h2.right{}
+.heading img{
+ width: 35px;
+   height: 35px;
+   position: relative;
+   top: 1px;
+}
+
+.form{
+ text-align: center;
+ padding: 15px 40px 50px;
+}
+.form h3{
+ letter-spacing: 1px;
+ text-align: center;
+ font-size: 20px;
+}
+.form form{}
+.form form .uname{
+ margin-bottom: 15px;
+}
+.form form .pwd{
+ margin-bottom: 15px;
+}
+.form form{}
+.form label{
+ display: block;
+ margin-bottom: 10px;
+}
+.form input{
+ text-align: center;
+ margin-bottom: 10px;
+}
+.form .forgot-pass a{
+ color: #01b5f2;
+ font-size: 12px;
+ letter-spacing: 1px;
+ text-decoration: none;
+}
+.form button{
+ border: none;
+ border-bottom: 2px solid #01b5f2;
+ color: #01b5f2;
+ font-size: 17px;
+ font-weight: bold;
+ background-color: transparent; 
+ margin-top: 20px;
+}
+
+
+
+.signup{
+ text-align: center;
+ background-color: #f3fbfd;
+ padding: 0px;
+ padding-top: 0px;
+ margin-top: 30px;
+ display: inline-block;
+ width: 100%;
+ min-height: 180px;
+}
+.signup p{
+ position: relative;
+   top: -14px;
+   margin: 0;
+}
+.signup .google {
+ padding: 15px 0;
+}
+.signup .google .ico{
+ display: inline;
+ width: 20px;
+ height: 20px;
+}
+.signup .google .goo{
+ display: inline;
+ text-align: center;
+ margin-bottom: 10px;
+}
+.footer{
+ padding: 15px 0;
+ display: inline-block;
+}
+.footer > div{}
+.footer label{}
+.footer a{}
